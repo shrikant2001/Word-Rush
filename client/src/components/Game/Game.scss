@@ -1,0 +1,113 @@
+$dark: rgb(47, 47, 47);
+$col: rgb(255, 234, 0);
+.Game {
+    background-color: $dark;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.left-part {
+    margin: 5px;
+    padding: 10px;
+    border: $dark 4px solid;
+    border-radius: 5px;
+    flex: 2;
+    background-color: $col;
+}
+
+.mid-part {
+    margin: 5px;
+    padding: 10px;
+    background-color: $col;
+    border: $dark 4px solid;
+    border-radius: 5px;
+    flex: 2;
+}
+
+.right-part {
+    margin: 5px;
+    padding: 10px;
+    height: 75vh;
+    border: $dark 4px solid;
+    border-radius: 5px;
+    flex: 2;
+    background-color: $col;
+}
+
+.presentor {
+    height: 70vh;
+    border-radius: 5px;
+}
+
+.msg-container {
+    padding-bottom: 10px;
+    background-color: $col;
+    height: 50vh;
+    border: solid 4px $dark;
+}
+
+.Ans-container {
+    background: $col;
+    width: 100%;
+    padding: 10px;
+    border: $dark solid 4px;
+}
+
+.Ans-container-inside {
+    height: 70vh;
+}
+
+.chat-msg {
+    padding: 0 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.type-here {
+    width: 80%;
+    margin: 10px;
+}
+
+.send-msg-btn {
+    color: $col;
+    background-color: $dark;
+}
+
+.score-container {
+    margin-top: 10px;
+    background-color: $col;
+    height: 25vh;
+    border: solid 4px $dark;
+}
+
+.score-tile {
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.letter-getter-btn {
+    border: solid 2px $dark;
+}
+
+.letter-getter-btn:hover {
+    color: $col;
+    background-color: $dark;
+    border: solid 2px $dark;
+}
+
+.letter-box-container {
+    padding: 20px;
+    background: $dark;
+}
+
+.letter-box {
+    font-size: 48px;
+    color: $col;
+    font-weight: bold;
+}
+
+.main-title-3 {
+    font-size: 24px;
+    letter-spacing: 0.1rem;
+    color: $col;
+}
